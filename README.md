@@ -1,2 +1,3 @@
 # OpenG Variant Configuration File Library
-The JKI-supported branch of the OpenG Variant Configuration File Library (a.k.a. variantconfig)
+
+[Install the OpenG Variant Configuration File Library with VIPM](https://www.vipm.io/package/oglib_variantconfig/)
