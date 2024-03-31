@@ -1,0 +1,16 @@
+
+# Python Virtual Environment
+.venv/
+
+# LabVIEW Local Settings
+*.aliases
+*.lvlps
+
+# Dragon Meta Folder
+.dragon/
+
+# Temp Build Folder
+.source/
+
+# Built Package
+*.vip
