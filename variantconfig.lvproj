@@ -16,10 +16,8 @@
 		<Item Name="build support" Type="Folder">
 			<Item Name="List VIs without Test Coverage.vi" Type="VI" URL="../build support/List VIs without Test Coverage.vi"/>
 			<Item Name="Pre-Build VI - Run Unit Tests.vi" Type="VI" URL="../build support/Pre-Build VI - Run Unit Tests.vi"/>
-		</Item>
-		<Item Name="candidates" Type="Folder"/>
-		<Item Name="docs" Type="Folder">
-			<Item Name="ToDo.txt" Type="Document" URL="../docs/ToDo.txt"/>
+			<Item Name="coverage.vi" Type="VI" URL="../../OpenG-Time-Library/build support/coverage.vi"/>
+			<Item Name="Get Todo Bookmarks.vi" Type="VI" URL="../build support/Get Todo Bookmarks.vi"/>
 		</Item>
 		<Item Name="source" Type="Folder">
 			<Item Name="examples" Type="Folder"/>
@@ -27,7 +25,6 @@
 				<Item Name="configuration file vis.png" Type="Document" URL="../source/images/configuration file vis.png"/>
 				<Item Name="icon.png" Type="Document" URL="../source/images/icon.png"/>
 			</Item>
-			<Item Name="install scripts" Type="Folder"/>
 			<Item Name="library" Type="Folder">
 				<Item Name="Encode Section and Key Names.vi" Type="VI" URL="../source/library/Encode Section and Key Names.vi"/>
 				<Item Name="Format Numeric Array.vi" Type="VI" URL="../source/library/Format Numeric Array.vi"/>
@@ -40,9 +37,6 @@
 				<Item Name="Write Key (Variant).vi" Type="VI" URL="../source/library/Write Key (Variant).vi"/>
 				<Item Name="Write Panel to INI.vi" Type="VI" URL="../source/library/Write Panel to INI.vi"/>
 				<Item Name="Write Section Cluster.vi" Type="VI" URL="../source/library/Write Section Cluster.vi"/>
-			</Item>
-			<Item Name="user docs" Type="Folder">
-				<Item Name="License Agreement.txt" Type="Document" URL="../source/user docs/License Agreement.txt"/>
 			</Item>
 			<Item Name=".vipb" Type="Document" URL="../source/.vipb"/>
 			<Item Name=".vipc" Type="Document" URL="../source/.vipc"/>
@@ -234,7 +228,6 @@
 				<Item Name="Caraya Interactive Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Caraya Interactive Menu.rtm"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="TCP_NoDelay_Linux.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Linux.vi"/>
-				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
@@ -246,7 +239,6 @@
 				<Item Name="Librarian Set Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Set Info.vi"/>
 				<Item Name="Set VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Set VI Library File Info.vi"/>
 			</Item>
-			<Item Name="Get Todo Bookmarks.vi" Type="VI" URL="../build support/Get Todo Bookmarks.vi"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
