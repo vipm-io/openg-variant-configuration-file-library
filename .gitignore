@@ -14,3 +14,7 @@
 
 # Built Package
 *.vip
+
+# Test Reports
+report.xml
+codecov.json
