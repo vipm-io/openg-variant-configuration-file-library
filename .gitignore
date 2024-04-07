@@ -1,6 +1,7 @@
 
-# Python Virtual Environment
+# Python Virtual Environment and Caches
 .venv/
+__pycache__/
 
 # LabVIEW Local Settings
 *.aliases
