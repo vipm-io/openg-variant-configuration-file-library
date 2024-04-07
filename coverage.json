@@ -1,0 +1,34 @@
+{
+  "coverage": {
+    "source/library/Encode Section and Key Names.vi": {
+      "1": 1
+    },
+    "source/library/Format Numeric Array.vi": {
+      "1": 1
+    },
+    "source/library/Read INI Cluster.vi": {
+      "1": 1
+    },
+    "source/library/Read Key (Variant).vi": {
+      "1": 0
+    },
+    "source/library/Read Panel from INI.vi": {
+      "1": 0
+    },
+    "source/library/Read Section Cluster.vi": {
+      "1": 0
+    },
+    "source/library/Write INI Cluster.vi": {
+      "1": 1
+    },
+    "source/library/Write Key (Variant).vi": {
+      "1": 0
+    },
+    "source/library/Write Panel to INI.vi": {
+      "1": 1
+    },
+    "source/library/Write Section Cluster.vi": {
+      "1": 0
+    }
+  }
+}

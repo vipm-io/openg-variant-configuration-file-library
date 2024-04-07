@@ -1,0 +1,15 @@
+[project]
+labview-version = 2009
+vipc = 'source\.vipc'
+
+[nipm]
+
+[vipm]
+
+[vipm.dependencies]
+oglib_error = "6.0.0.26"
+oglib_file = "6.0.2.28"
+oglib_lvdata = "6.0.0.45"
+oglib_string = "6.0.2.35"
+jki_lib_caraya = "1.4.3.147"
+wiresmith_technology_lib_g_cli = "3.0.1.98"
