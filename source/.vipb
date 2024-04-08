@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-16 18:53:39" Modified_Date="2024-04-08 13:28:44" Creator="Jonathon Green" Comments="" ID="2e954375921c45f5e3fac956f6158994">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-16 18:53:39" Modified_Date="2024-04-08 13:56:17" Creator="Jonathon Green" Comments="" ID="53c1cc7ced84180dcb8bb8fd94f72273">
   <Library_General_Settings>
     <Package_File_Name>oglib_variantconfig</Package_File_Name>
-    <Library_Version>6.0.0.7</Library_Version>
+    <Library_Version>6.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -390,7 +390,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>&lt;vi.lib&gt;\Utility\config.llb\Open Config Data.vi</Path>
         <VI_Title>Open Config Data.vi</VI_Title>
       </Items_Data>
-      <GUID>6D797B71C6122819016BE8FEE660DCA6</GUID>
+      <GUID>0C06338F87DF3B90B8E20FBBD9A37B35</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -537,7 +537,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>&lt;vi.lib&gt;\Utility\config.llb\Not A Config Data Refnum.vi</Path>
         <VI_Title>Not A Config Data Refnum.vi</VI_Title>
       </Items_Data>
-      <GUID>AE771F70A3F2A292BA7A1AF541DEF435</GUID>
+      <GUID>121D0CC350681040068648E3255C8523</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
