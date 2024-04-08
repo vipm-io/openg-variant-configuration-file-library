@@ -1,3 +1,10 @@
 # Add VI Names here to exclude them from being defined as required
 
 VI Tree - variantconfig.vi
+
+# todo: remove these exclusions and add specific unit tests
+Read Key (Variant).vi
+Read Panel from INI.vi
+Read Section Cluster.vi
+Write Key (Variant).vi
+Write Section Cluster.vi

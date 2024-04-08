@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-16 18:53:39" Modified_Date="2024-04-07 15:39:05" Creator="Jonathon Green" Comments="" ID="b01ae6be9b077b8613115c6c5a0a53c7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-16 18:53:39" Modified_Date="2024-04-08 13:56:17" Creator="Jonathon Green" Comments="" ID="53c1cc7ced84180dcb8bb8fd94f72273">
   <Library_General_Settings>
     <Package_File_Name>oglib_variantconfig</Package_File_Name>
-    <Library_Version>6.0.0.6</Library_Version>
+    <Library_Version>6.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,10 +17,16 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>jki_lib_caraya &gt;= 1.4.3.147</External_Dependencies>
+      <External_Dependencies>oglib_array &gt;= 6.0.1.20</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
+      <External_Dependencies>oglib_file &gt;= 6.0.2.28</External_Dependencies>
       <External_Dependencies>oglib_lvdata &gt;= 6.0.0.45</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 6.0.2.35</External_Dependencies>
+      <Direct_Dependencies>jki_lib_caraya-1.4.3.147</Direct_Dependencies>
+      <Direct_Dependencies>oglib_array-6.0.1.20</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
+      <Direct_Dependencies>oglib_file-6.0.2.28</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvdata-6.0.0.45</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-6.0.2.35</Direct_Dependencies>
     </Package_Dependencies>
@@ -39,7 +45,14 @@
       <Copyright>2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_variantconfig/</URL>
-      <Release_Notes/>
+      <Release_Notes>- Requires LabVIEW 2020 or greater
+- Moved library VIs into Library (oglib_variantconfig.lvlib`)
+- Upgraded source code to LV2020 format
+- Marked all as Separate Compiled Code
+
+Kudos to contributors @Bas-vE and @jimkring for their work on this release.
+
+Important: Callers of this package will relink automatically to the new Library (oglib_variantconfig.lvlib) that contains this package. However, if you subsequently downgrade this package to version 5.x or older, your callers will need to be manually relinked to the older version (without the Library namespace).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -128,6 +141,11 @@
         <Path>library</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>__ogtk</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>library/openg_variant_configuration_file.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
         <Path>images</Path>
@@ -372,7 +390,7 @@
         <Path>&lt;vi.lib&gt;\Utility\config.llb\Open Config Data.vi</Path>
         <VI_Title>Open Config Data.vi</VI_Title>
       </Items_Data>
-      <GUID>117B16A210D13A2EEC90A89622D13B51</GUID>
+      <GUID>0C06338F87DF3B90B8E20FBBD9A37B35</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -519,7 +537,7 @@
         <Path>&lt;vi.lib&gt;\Utility\config.llb\Not A Config Data Refnum.vi</Path>
         <VI_Title>Not A Config Data Refnum.vi</VI_Title>
       </Items_Data>
-      <GUID>67AAA07E5F4841570570C023C1884719</GUID>
+      <GUID>121D0CC350681040068648E3255C8523</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
