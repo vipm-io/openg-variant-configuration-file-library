@@ -1,7 +1,9 @@
 # OpenG Variant Configuration File Library
 
-[![Image](https://www.vipm.io/package/oglib_variantconfig/badge.svg?metric=installs)](https://www.vipm.io/package/oglib_variantconfig/) [![Image](https://www.vipm.io/package/oglib_variantconfig/badge.svg?metric=stars)](https://www.vipm.io/package/oglib_variantconfig/)
+[![Image](https://www.vipm.io/package/oglib_variantconfig/badge.svg?metric=installs)](https://www.vipm.io/package/oglib_variantconfig/)
+[![Image](https://www.vipm.io/package/oglib_variantconfig/badge.svg?metric=stars)](https://www.vipm.io/package/oglib_variantconfig/)
 [![ci-checks](https://github.com/vipm-io/OpenG-Variant-Configuration-File-Library/actions/workflows/ci.yml/badge.svg)](https://github.com/vipm-io/OpenG-Variant-Configuration-File-Library/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/vipm-io/openg-variant-configuration-file-library/graph/badge.svg?token=GWHT13U6K1)](https://codecov.io/gh/vipm-io/openg-variant-configuration-file-library)
 [![All Contributors](https://img.shields.io/github/all-contributors/vipm-io/OpenG-Variant-Configuration-File-Library?color=ee8449&style=flat-square)](#contributors)
 
 ![image](source/images/icon.png)
