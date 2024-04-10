@@ -27,6 +27,13 @@ Also, please see the [OpenG Developer Guide](https://github.com/vipm-io/OpenG-To
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/francois-normandin"><img src="https://avatars.githubusercontent.com/u/11728548?v=4?s=100" width="100px;" alt="Francois Normandin"/><br /><sub><b>Francois Normandin</b></sub></a><br /><a href="#bug-francois-normandin" title="Bug reports">🐛</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
