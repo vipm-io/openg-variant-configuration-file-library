@@ -32,6 +32,7 @@ Also, please see the [OpenG Developer Guide](https://github.com/vipm-io/OpenG-To
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/francois-normandin"><img src="https://avatars.githubusercontent.com/u/11728548?v=4?s=100" width="100px;" alt="Francois Normandin"/><br /><sub><b>Francois Normandin</b></sub></a><br /><a href="#bug-francois-normandin" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/tcplomp"><img src="https://avatars.githubusercontent.com/u/2871661?v=4?s=100" width="100px;" alt="tcplomp"/><br /><sub><b>tcplomp</b></sub></a><br /><a href="#code-tcplomp" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jimkring"><img src="https://avatars.githubusercontent.com/u/381432?v=4?s=100" width="100px;" alt="Jim Kring"/><br /><sub><b>Jim Kring</b></sub></a><br /><a href="#code-jimkring" title="Code">💻</a> <a href="#bug-jimkring" title="Bug reports">🐛</a> <a href="#maintenance-jimkring" title="Maintenance">🚧</a> <a href="#test-jimkring" title="Tests">⚠️</a></td>
     </tr>
   </tbody>
 </table>
