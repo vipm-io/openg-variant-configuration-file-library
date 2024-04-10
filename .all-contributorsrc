@@ -1,4 +1,21 @@
 {
-    "projectName": "OpenG-Variant-Configuration-File-Library",
-    "projectOwner": "vipm-io"
+  "projectName": "openg-variant-configuration-file-library",
+  "projectOwner": "vipm-io",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "francois-normandin",
+      "name": "Francois Normandin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11728548?v=4",
+      "profile": "https://github.com/francois-normandin",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ]
 }
