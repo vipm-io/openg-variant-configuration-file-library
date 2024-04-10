@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-16 18:53:39" Modified_Date="2024-04-08 13:56:17" Creator="Jonathon Green" Comments="" ID="53c1cc7ced84180dcb8bb8fd94f72273">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-16 18:53:39" Modified_Date="2024-04-10 11:40:06" Creator="Jonathon Green" Comments="" ID="40f9bf239703096f373005987a07a4a5">
   <Library_General_Settings>
     <Package_File_Name>oglib_variantconfig</Package_File_Name>
-    <Library_Version>6.0.0.9</Library_Version>
+    <Library_Version>6.0.1.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,16 +17,10 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_lib_caraya &gt;= 1.4.3.147</External_Dependencies>
-      <External_Dependencies>oglib_array &gt;= 6.0.1.20</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
-      <External_Dependencies>oglib_file &gt;= 6.0.2.28</External_Dependencies>
       <External_Dependencies>oglib_lvdata &gt;= 6.0.0.45</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 6.0.2.35</External_Dependencies>
-      <Direct_Dependencies>jki_lib_caraya-1.4.3.147</Direct_Dependencies>
-      <Direct_Dependencies>oglib_array-6.0.1.20</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
-      <Direct_Dependencies>oglib_file-6.0.2.28</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvdata-6.0.0.45</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-6.0.2.35</Direct_Dependencies>
     </Package_Dependencies>
@@ -45,7 +39,11 @@
       <Copyright>2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_variantconfig/</URL>
-      <Release_Notes>- Requires LabVIEW 2020 or greater
+      <Release_Notes>6.0.1
+- Added support for 64-bit integers and enums
+- Removed external dependency on Caraya package (which is only a development dependency)
+6.0.0
+- Requires LabVIEW 2020 or greater
 - Moved library VIs into Library (oglib_variantconfig.lvlib`)
 - Upgraded source code to LV2020 format
 - Marked all as Separate Compiled Code
@@ -390,7 +388,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>&lt;vi.lib&gt;\Utility\config.llb\Open Config Data.vi</Path>
         <VI_Title>Open Config Data.vi</VI_Title>
       </Items_Data>
-      <GUID>0C06338F87DF3B90B8E20FBBD9A37B35</GUID>
+      <GUID>CF32EB03D16033D9FC9EED7132E973A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -537,7 +535,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>&lt;vi.lib&gt;\Utility\config.llb\Not A Config Data Refnum.vi</Path>
         <VI_Title>Not A Config Data Refnum.vi</VI_Title>
       </Items_Data>
-      <GUID>121D0CC350681040068648E3255C8523</GUID>
+      <GUID>994CAFCC314575ABDDED29562941D9A8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
